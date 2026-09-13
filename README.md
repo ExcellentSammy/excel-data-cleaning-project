@@ -1,98 +1,85 @@
-# 🧹 Excel Data Cleaning Project
+# Excel Data Cleaning Project
 
-## 📌 Project Overview
+## Project Overview
 
 This project demonstrates the process of cleaning and preparing a raw dataset for analysis using Microsoft Excel.
 
-The project focuses on identifying data quality issues, handling missing values, checking for duplicate records, and standardizing incorrect or inconsistent data formats.
+The objective was to identify common data quality issues and transform the raw dataset into a more accurate, consistent, and analysis-ready dataset.
 
-The cleaned dataset is structured and ready for further analysis and visualization.
+## Business Context
 
----
+Raw datasets often contain missing values, duplicate records, inconsistent formatting, and other quality issues that can affect the accuracy of analysis.
 
-## 🎯 Project Objectives
+This project focuses on applying practical data-cleaning techniques to address these issues before the data is used for analysis or visualization.
 
-The main objectives of this project were to:
+## Objectives
 
-- Identify missing or null values
+- Identify missing and null values
 - Handle missing data appropriately
-- Check for and remove duplicate records
-- Correct incorrect data formats
-- Standardize dates, numbers, and text values
+- Check for duplicate records
+- Correct inconsistent data formats
+- Standardize dates, numbers, and text
 - Validate the cleaned dataset
-- Prepare the dataset for further analysis
+- Prepare the data for further analysis
 
----
+## Tools & Skills
 
-## 🛠️ Tools & Skills
+**Tool:** Microsoft Excel
 
-### Tool
-- Microsoft Excel
-
-### Skills Demonstrated
+**Skills:**
 - Data Cleaning
-- Data Quality Checking
+- Data Quality Assessment
 - Missing Value Handling
 - Duplicate Detection
 - Data Formatting
 - Data Validation
 - Excel Filtering
 - Excel Remove Duplicates
-- Basic Data Preparation
+- Data Preparation
 
----
+## Data Cleaning Process
 
-## 🧹 Data Cleaning Process
+### 1. Missing Value Identification
 
-### 1. Identifying Missing Values
-
-Excel filters were used to identify blank and null values across the dataset.
+Excel filtering tools were used to identify blank and null values across the dataset.
 
 Missing values were identified in the `CouponCode` column.
 
-### 2. Handling Missing Values
+### 2. Missing Value Treatment
 
-The missing `CouponCode` values were replaced with:
+The missing values in the `CouponCode` column were replaced with:
 
 `No Coupon`
 
-This was used because a blank coupon code indicates that no coupon was associated with the order.
+This provides a clear representation of records where no coupon code was available.
 
-### 3. Checking for Duplicate Records
+### 3. Duplicate Check
 
-The dataset was checked using Excel's **Remove Duplicates** feature.
+The dataset was checked for duplicate records using Excel's **Remove Duplicates** feature.
 
-No duplicate records were identified in the dataset.
+**Result:** No duplicate records were identified.
 
-### 4. Correcting Data Formats
+### 4. Data Format Standardization
 
-The following data types were reviewed and standardized:
+Data types and formats were reviewed and standardized, including:
 
 - Dates
-- Quantity values
-- Items in cart
-- Unit prices
-- Total prices
-- Text fields
+- Quantity
+- Items in Cart
+- Unit Price
+- Total Price
 
-Dates were standardized into a consistent date format, while numerical and price fields were checked to ensure they were stored correctly.
+Numerical fields were checked to ensure they were stored as numbers, while price fields were formatted consistently.
 
 ### 5. Text Cleaning
 
-Text fields were reviewed for unnecessary spaces and inconsistent formatting to improve consistency across the dataset.
+Text fields were reviewed for unnecessary spaces and inconsistent formatting to improve data consistency.
 
-### 6. Final Validation
+### 6. Data Validation
 
-After cleaning, the dataset was reviewed again to ensure that:
+A final review was performed to confirm that the identified data-quality issues had been addressed and that the cleaned dataset was suitable for further analysis.
 
-- Missing values were properly handled
-- Duplicate records were checked
-- Data formats were consistent
-- The dataset was ready for further analysis
-
----
-
-## 📊 Cleaning Results
+## Cleaning Results
 
 | Data Quality Check | Result |
 |---|---|
@@ -100,35 +87,39 @@ After cleaning, the dataset was reviewed again to ensure that:
 | Missing CouponCode values | 309 |
 | Missing CouponCode values handled | Yes |
 | Duplicate records found | 0 |
-| Date format standardized | Yes |
-| Numerical formats checked | Yes |
-| Text formatting checked | Yes |
-| Final dataset prepared for analysis | Yes |
+| Date formatting reviewed | Yes |
+| Numerical formatting reviewed | Yes |
+| Text formatting reviewed | Yes |
+| Dataset prepared for analysis | Yes |
 
----
-
-## 📁 Project Files
+## Project Files
 
 | File | Description |
 |---|---|
 | `Raw Dataset for Data Analytics.xlsx` | Original dataset before cleaning |
-| `Cleaned_Dataset_for_Data_Analytics.xlsx` | Final cleaned dataset |
+| `Cleaned_Dataset_for_Data_Analytics.xlsx` | Cleaned and standardized dataset |
 | `README.md` | Project documentation |
 
----
+## Project Outcome
 
-## 💡 Project Outcome
+The raw dataset was cleaned and standardized using Microsoft Excel.
 
-The raw dataset was successfully cleaned and standardized using Microsoft Excel.
+The final dataset is more consistent and structured, making it suitable for subsequent analysis and visualization.
 
-The resulting dataset is more consistent, structured, and suitable for further data analysis and visualization.
+This project demonstrates practical experience in identifying and resolving common data-quality issues as part of the data analysis workflow.
 
-This project demonstrates my ability to identify and resolve common data quality issues as a Data Analyst.
+## Key Takeaways
 
----
+This project strengthened my practical understanding of:
 
-## 👤 About Me
+- Assessing data quality before analysis
+- Handling missing values
+- Detecting duplicate records
+- Standardizing data formats
+- Preparing datasets for analysis
 
-I am a **Data Analyst** with an interest in turning raw data into meaningful insights and supporting data-driven decision-making.
+## About Me
 
-I am also currently expanding my technical knowledge by learning **Data Science** and developing my skills in data analysis, visualization, and related technologies.
+I am a **Data Analyst** focused on transforming raw data into meaningful insights that can support data-driven decision-making.
+
+I am currently expanding my technical capabilities by learning **Data Science** and developing my knowledge across data analysis, visualization, and related technologies.

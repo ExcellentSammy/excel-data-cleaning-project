@@ -92,34 +92,84 @@ A final review was performed to confirm that the identified data-quality issues 
 | Text formatting reviewed | Yes |
 | Dataset prepared for analysis | Yes |
 
+## Data Analysis
+
+Following the data-cleaning stage, the cleaned dataset was analyzed using Microsoft Excel to identify key patterns, trends, and potential outliers.
+
+### Analysis Performed
+
+- Calculated descriptive statistics including count, mean, and median
+- Analyzed order volume by product
+- Compared total revenue across products
+- Examined monthly sales trends from 2023–2025
+- Identified potential high-value outliers using the IQR method
+- Created an executive summary of the key findings
+
+## Key Findings
+
+| Metric | Result |
+|---|---:|
+| Total Orders | 1,200 |
+| Average Order Value | 1,053.97 |
+| Median Order Value | 823.62 |
+| Most Ordered Product | Printer — 181 orders |
+| Highest Revenue Product | Chair |
+| Peak Sales Month | May 2023 |
+| Peak Monthly Revenue | 63,836.84 |
+| IQR Upper Threshold | 3,330.41 |
+| High-Value Outliers | 8 |
+
+## Analysis Highlights
+
+### Product Performance
+
+Printer recorded the highest number of orders with 181 orders, while Chair generated the highest total revenue among the products analyzed.
+
+### Sales Trends
+
+Monthly sales fluctuated across the 2023–2025 period. The highest monthly sales value occurred in May 2023, with total sales of 63,836.84.
+
+### Outlier Analysis
+
+The Interquartile Range (IQR) method was used to identify unusually high-value orders.
+
+Orders exceeding the upper threshold of 3,330.41 were flagged as potential high-value outliers, resulting in 8 identified records.
+
+These records were retained in the dataset and documented separately for further review rather than being automatically removed.
+
+## Analysis Workbook
+
+The analysis was documented in the following Excel workbook:
+
+`Excel_Sales_Data_Analysis.xlsx`
+
+The workbook contains:
+
+- Cleaned dataset
+- Descriptive statistics
+- Product performance analysis
+- Monthly sales trend analysis
+- Outlier analysis
+- Executive summary
+
 ## Project Files
 
 | File | Description |
 |---|---|
 | `Raw Dataset for Data Analytics.xlsx` | Original dataset before cleaning |
 | `Cleaned_Dataset_for_Data_Analytics.xlsx` | Cleaned and standardized dataset |
+| `Excel_Sales_Data_Analysis.xlsx` | Excel workbook containing the data analysis |
 | `README.md` | Project documentation |
 
 ## Project Outcome
 
-The raw dataset was cleaned and standardized using Microsoft Excel.
+The project progressed from raw data cleaning to exploratory analysis, trend identification, outlier detection, and executive-level summarization.
 
-The final dataset is more consistent and structured, making it suitable for subsequent analysis and visualization.
-
-This project demonstrates practical experience in identifying and resolving common data-quality issues as part of the data analysis workflow.
-
-## Key Takeaways
-
-This project strengthened my practical understanding of:
-
-- Assessing data quality before analysis
-- Handling missing values
-- Detecting duplicate records
-- Standardizing data formats
-- Preparing datasets for analysis
+The resulting analysis workbook provides a structured view of the dataset and demonstrates the use of Microsoft Excel for practical data analysis and reporting.
 
 ## About Me
 
 I am a **Data Analyst** focused on transforming raw data into meaningful insights that can support data-driven decision-making.
 
-I am currently expanding my technical capabilities by learning **Data Science** and developing my knowledge across data analysis, visualization, and related technologies.
+I am currently expanding my technical capabilities by learning **Data Science** and developing my knowledge across data analysis, visualization, and related technologies.technologies.
+
